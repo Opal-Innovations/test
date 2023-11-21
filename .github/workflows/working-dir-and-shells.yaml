@@ -4,7 +4,7 @@ on: [push]
 defaults:
   run:
     shell: bash
-    working-directory: home/runner
+    working-directory: /home/runner
 jobs:
   display-wd-info:
     runs-on: ubuntu-latest
